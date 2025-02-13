@@ -14,14 +14,15 @@ Eğer Git ile SSL bağlantı hatası alıyorsanız, sistemde bir sertifika eklem
 
 3. **Sertifikayı Yapılandırın**:
     Komut istemcisine aşağıdaki komutu girin:
-
+    Komut istemcisi penceresini yönetici olarak çalıştırın.
+   
     ```bash
     git config --system http.sslCAinfo C:\MEB_SERTIFIKASI.crt
     ```
 
     Bu komut, Git'in sistem düzeyinde SSL sertifikasını kullanmasını sağlar.
 
-4. **Git Yapılandırmasını Kontrol Edin**:
+5. **Git Yapılandırmasını Kontrol Edin**:
     Yapılandırmanın doğru olduğundan emin olmak için şu komutu çalıştırabilirsiniz:
 
     ```bash
@@ -30,16 +31,12 @@ Eğer Git ile SSL bağlantı hatası alıyorsanız, sistemde bir sertifika eklem
 
     Bu komut, yapılandırmanızın doğru şekilde uygulandığını gösterecektir.
 ### VsCode Ayarları
+Aşağıdaki resimdeki ayarları vscode üzerinden gerçekleştirin. Sonrasında vscode kullanarak uzak depoları kullanabilirsiniz.
 
 ![Proje Resmi](https://github.com/torbalibiltek/okuldagithub/raw/main/vscodeayar.png)
 
 *Bu resim, vscode ile uzak depoya erişim için problemin çözümünü gösterir.*
 
-## İletişim
+## Sonuç
 
-Projem hakkında soru sormak veya bana ulaşmak için aşağıdaki yöntemleri kullanabilirsiniz:
-
-- [E-posta](mailto:email@example.com)
-- [LinkedIn](https://www.linkedin.com/in/kullanici)
-
-Teşekkürler!
+Hepsi bu kadar, iyi çalışmalar!
