@@ -6,7 +6,7 @@ Burada çeşitli projelerimi bulabilirsiniz. Her bir proje, üzerinde çalışt�
 
 ### Projemin Görseli
 
-![Proje Resmi](https://github.com/kullaniciAdi/depoadi/raw/main/proje-resmi.png)
+![Proje Resmi](https://github.com/torbalibiltek/okuldagithub/raw/vscodeayar.png)
 
 *Bu resim, depomda bulunan bir dosyayı göstermektedir.*
 
