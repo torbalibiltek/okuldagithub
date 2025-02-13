@@ -9,7 +9,7 @@ Burada meb bağlı okullarda github kullanırken oluşan sertifika hatasının �
 Eğer Git ile SSL bağlantı hatası alıyorsanız, sistemde bir sertifika eklemeniz gerekebilir. Aşağıdaki adımları takip ederek bu hatayı çözebilirsiniz:
 
 1. **SSL Sertifikasını İndir**: İlk olarak gerekli sertifika dosyasını edinmeniz gerekmektedir. Genellikle, `.crt` uzantılı bir dosya olacaktır.
-[Dosyayı İndir](https://github.com/torbalibiltek/depoadi/raw/main/MEB_SERTIFIKASI.zip)
+[Dosyayı İndir](https://github.com/torbalibiltek/okuldagithub/raw/main/MEB_SERTIFIKASI.CRT)
 
 
 3. **Sertifikayı Yapılandırın**:
