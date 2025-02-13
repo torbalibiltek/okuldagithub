@@ -37,6 +37,15 @@ Aşağıdaki resimdeki ayarları vscode üzerinden gerçekleştirin. Sonrasında
 
 *Bu resim, vscode ile uzak depoya erişim için problemin çözümünü gösterir.*
 
+## Kendi kullanıcı ayarlarınızı ekleyin
+
+```bash
+git config --global user.name "torbalibiltek"
+```
+```bash
+git config --global user.email "torbalibiltek@gmail.com"
+```
+
 ## Sonuç
 
 Hepsi bu kadar, iyi çalışmalar!
