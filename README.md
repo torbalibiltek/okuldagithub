@@ -2,21 +2,16 @@
 
 ## Sertifika Probleminin Çözümü
 
-Burada çeşitli projelerimi bulabilirsiniz. Her bir proje, üzerinde çalıştığım yazılım ve uygulamalara dair detayları içeriyor. Aşağıda bu projelerimden bazılarını inceleyebilirsiniz.
-
-### Projemin Görseli
-
-![Proje Resmi](https://github.com/torbalibiltek/okuldagithub/raw/vscodeayar.png)
-
-*Bu resim, depomda bulunan bir dosyayı göstermektedir.*
+Burada meb bağlı okullarda github kullanırken oluşan sertifika hatasının çözümünü bulabilirsiniz.
 
 ## Git SSL Sertifikası Yapılandırması
 
 Eğer Git ile SSL bağlantı hatası alıyorsanız, sistemde bir sertifika eklemeniz gerekebilir. Aşağıdaki adımları takip ederek bu hatayı çözebilirsiniz:
 
 1. **SSL Sertifikasını İndir**: İlk olarak gerekli sertifika dosyasını edinmeniz gerekmektedir. Genellikle, `.crt` uzantılı bir dosya olacaktır.
+![MEB Sertifika Dosyası(CRT)](https://github.com/torbalibiltek/okuldagithub/mebsertifika.crt)
 
-2. **Sertifikayı Yapılandırın**:
+3. **Sertifikayı Yapılandırın**:
     Komut istemcisine aşağıdaki komutu girin:
 
     ```bash
@@ -25,7 +20,7 @@ Eğer Git ile SSL bağlantı hatası alıyorsanız, sistemde bir sertifika eklem
 
     Bu komut, Git'in sistem düzeyinde SSL sertifikasını kullanmasını sağlar.
 
-3. **Git Yapılandırmasını Kontrol Edin**:
+4. **Git Yapılandırmasını Kontrol Edin**:
     Yapılandırmanın doğru olduğundan emin olmak için şu komutu çalıştırabilirsiniz:
 
     ```bash
@@ -33,6 +28,11 @@ Eğer Git ile SSL bağlantı hatası alıyorsanız, sistemde bir sertifika eklem
     ```
 
     Bu komut, yapılandırmanızın doğru şekilde uygulandığını gösterecektir.
+### VsCode Ayarları
+
+![Proje Resmi](https://github.com/torbalibiltek/okuldagithub/vscodeayar.png)
+
+*Bu resim, vscode ile uzak depoya erişim için problemin çözümünü gösterir.*
 
 ## İletişim
 
